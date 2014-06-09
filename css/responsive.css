@@ -1,0 +1,43 @@
+@media screen and (min-width: 480px) {
+  nav {
+   background: none;
+    float: center;
+    font-size: 1.25em;
+    text-align: center;
+    width: 95%;
+    margin: 5% 0 0 0;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  nav {
+   background: none;
+    float: center;
+    font-size: 1.25em;
+    text-align: right;
+    width: 95%;
+    margin: 5% 0 0 0;
+  }
+  #gallery li {
+  width: 42.5%;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  nav {
+   background: none;
+    float: right;
+    font-size: 1.125em;
+    text-align: right;
+    width: 50%;
+    margin: 2% 0 0 0;
+  }
+     #gallery li {
+  width: 28.333%;
+  }
+}
+
+.profile-photo {
+float: left;
+  margin: 0 5% 20px 0;
+}

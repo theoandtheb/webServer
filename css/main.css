@@ -1,0 +1,184 @@
+
+/* 
+General
+*/
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Gilda Display', serif;
+}
+
+nav {
+   background: none;
+    float: center;
+    font-size: 1.25em;
+    text-align: center;
+    width: 95%;
+    margin: 3% 0 0 0;
+  }
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: #14110E;
+}
+
+#logo {
+  text-align: center;
+}
+
+h1 {
+font-family: 'Cinzel', serif;
+  margin: 15px 0;
+  font-size: 3.5em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+font-family: 'Cinzel', serif;
+  margin: -5px  00;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+a {
+  color: #AB8860;
+}
+
+a:hover {
+  color: #998063;
+}
+
+/* I wanted the header to be green, I think */
+header {
+    background: #14110E;
+    border-color: #599a68;
+    float: left;
+    margin: 0 0 15px 0;
+    padding 5px 0 0 0;
+    width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 96%;
+  margin: 1%;
+  background-color: rgba(54, 46, 37, 0.17);
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+ margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #AD8F6D;
+}
+
+
+h1, h2 {
+  color: #AD8F6D;
+}
+
+h3 {
+ margin: 0 0 1em 0; 
+}
+
+ nav a, nav a:visited {
+  color: #AD8F6D;
+}
+
+nav a.selected {
+  color: #998063;
+}
+
+nav a:hover {
+  color: #998063;
+}
+
+/* Site body */
+body {
+  background-color: #14110E;
+  color: #AD8F69;
+}
+
+footer {
+ font-size: 1.25em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #AD8F6D;
+}
+
+.soc-icon {
+  width: 7.5%;
+  height: 7.5%;
+  margin: 0 5px;
+    
+    
+}
+
+.portfolio-photo {
+  display: block;
+  max-width: 60%;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+}
+
+.contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  margin: 0 0 1.5em;
+}
+
+.contact a {
+  display: block:
+  min-height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 1.4em 1.4em;
+  padding: 0 0 0 2.0em;
+}
+
+.contact li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact li.mail a{
+  background-image: url('../img/mail.png');
+}
+
+.contact li.twitter a{
+  background-image: url('../img/twitter.png');
+}
